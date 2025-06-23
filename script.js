@@ -22,12 +22,12 @@ const letterPuzzlesData = [
 
 // Зображення для каруселі
 const carouselImages = [
-    { src: "Pictures/Hello.jpg", alt: "Привітання Hello" },
-    { src: "Pictures/Hi.jpg", alt: "Привітання Hi" },
-    { src: "Pictures/Good morning.jpg", alt: "Привітання Good Morning" },
-    { src: "Pictures/Good afternoon.jpg", alt: "Привітання Good Afternoon" },
-    { src: "Pictures/Good evening.jpg", alt: "Привітання Good Evening" },
-    { src: "Pictures/Good night.jpg", alt: "Привітання Good night" }
+    { src: "./Pictures/Hello.jpg", alt: "Привітання Hello" },
+    { src: "./Pictures/Hi.jpg", alt: "Привітання Hi" },
+    { src: "./Pictures/Good morning.jpg", alt: "Привітання Good Morning" },
+    { src: "./Pictures/Good afternoon.jpg", alt: "Привітання Good Afternoon" },
+    { src: "./Pictures/Good evening.jpg", alt: "Привітання Good Evening" },
+    { src: "./Pictures/Good night.jpg", alt: "Привітання Good night" }
 ];
 
 // --- НАЛАШТУВАННЯ ДЛЯ ГРИ 3: ВПІЗНАЙ СЛОВО НА СЛУХ (АУДІО-ГРА) ---
