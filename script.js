@@ -1,7 +1,7 @@
 // --- НАЛАШТУВАННЯ ДЛЯ ГРИ 1: Перетягни слово до картинки ---
 const dragAndDropPuzzlesData = [
     { correctWord: "Hello", image: "./Pictures/Привіт.jpg", draggableWord: "Hello" },
-    { correctWord: "Hi", image: "./Pictures/Привіт.jpg", draggableWord: "Hi" },
+    { correctWord: "Hi", image: "./Pictures/Привіт нф.jpg", draggableWord: "Hi" },
     { correctWord: "Good morning", image: "./Pictures/Добрий ранок.jpg", draggableWord: "Good morning" },
     { correctWord: "Good afternoon", image: "./Pictures/Добрий день.jpg", draggableWord: "Good afternoon" },
     { correctWord: "Good evening", image: "./Pictures/Добрий вечір.jpg", draggableWord: "Good evening" },
@@ -24,16 +24,16 @@ const letterPuzzlesData = [
 const carouselImages = [
     { src: "./Pictures/Hello.jpg", alt: "Привітання Hello" },
     { src: "./Pictures/Hi.jpg", alt: "Привітання Hi" },
-    { src: "./Pictures/Good morning.jpg", alt: "Привітання Good Morning" },
-    { src: "./Pictures/Good afternoon.jpg", alt: "Привітання Good Afternoon" },
-    { src: "./Pictures/Good evening.jpg", alt: "Привітання Good Evening" },
+    { src: "./Pictures/Good morning.jpg", alt: "Привітання Good morning" },
+    { src: "./Pictures/Good afternoon.jpg", alt: "Привітання Good afternoon" },
+    { src: "./Pictures/Good evening.jpg", alt: "Привітання Good evening" },
     { src: "./Pictures/Good night.jpg", alt: "Привітання Good night" }
 ];
 
 // --- НАЛАШТУВАННЯ ДЛЯ ГРИ 3: ВПІЗНАЙ СЛОВО НА СЛУХ (АУДІО-ГРА) ---
 const audioPuzzlesData = [
     { word: "Hello", audio: "./Audio/Hello.mp3" },
-    { word: "Hi", audio: "./Audio/hi.mp3" },
+    { word: "Hi", audio: "./Audio/Hi.mp3" },
     { word: "Good morning", audio: "./Audio/Good morning.mp3" },
     { word: "Good afternoon", audio: "./Audio/Good afternoon.mp3" },
     { word: "Good evening", audio: "./Audio/Good evening.mp3" },
